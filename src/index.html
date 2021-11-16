@@ -10,23 +10,27 @@
         integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
         integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/mobile.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
         crossorigin="anonymous"></script>
+    <script src="/js/main.js"></script>
 </head>
 
 <body>
     <header>
         <div class="container-fluid" p-0>
             <nav class="navbar navbar-expand-lg">
-                <a class="navbar-brand" href="#">Books</a>
+                <a class="navbar-brand" href="#"><i class="fas fa-book-reader fa-2x mx-3"></i>
+                    Books
+                </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse"
                     data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                     aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                    <i class="fas fa-align-right text-light"></i>
                 </button>
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -63,13 +67,13 @@
         </div>
         <div class="container text-center">
             <div class="row">
-                <div class="col-md-7 col-sm-12">
+                <div class="col-md-7 col-sm-12 text-white">
                     <h6>AUTHOR: DAILY TUITION</h6>
                     <h1>EXCITING ADVENTURE</h1>
                     <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi perferendis labore architecto id,
                         molestias nisi ipsum tenetur nobis ut, est pariatur porro omnis! In, delectus. Maiores quos
                         exercitationem necessitatibus nostrum.</P>
-                    <button class="btn btn-light">
+                    <button class="btn btn-light primary-btn px-5 py-2">
                         By now for $5.99
                     </button>
                 </div>
@@ -81,7 +85,7 @@
     </header>
     <main>
         <section class="section-1">
-            <div class="container">
+            <div class="container text-center">
                 <div class="row">
                     <div class="col-md-6 col 12">
                         <div>
@@ -104,33 +108,36 @@
             </div>
         </section>
         <section class="section-2 container-fluid p-0">
-            <div>
+            <div class="cover">
                 <div class="content text-center">
                     <h1>Some Features That Us Unique</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis praesentium animi, dolore
-                        minima tenetur cum odio quasi ducimus. Debitis provident pariatur quae explicabo sequi itaque
-                        error, ex dolorem dicta magni!</p>
+                    <p style="font-size: smaller;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis
+                        praesentium animi, dolore
+                        . Debitis!
+                    </p>
                 </div>
             </div>
-            <div class="d-flex flex-wrap justify-content-center">
-                <div>
-                    <h1>2345</h1>
-                    <p>Happy Client</p>
-                </div>
-                <div>
-                    <h1>6784</h1>
-                    <p>Ticket Submitted</p>
-                </div>
-                <div>
-                    <h1>2345</h1>
-                    <p>Text</p>
-                </div>
-                <div>
-                    <h1>9152</h1>
-                    <p>Total Project</p>
+            <div class="container-fluid text-center">
+                <div class="d-flex flex-wrap justify-content-center numbers">
+                    <div class="rect">
+                        <h1>2345</h1>
+                        <p>Happy Client</p>
+                    </div>
+                    <div class="rect">
+                        <h1>6784</h1>
+                        <p>Ticket Submitted</p>
+                    </div>
+                    <div class="rect">
+                        <h1>2345</h1>
+                        <p>Text</p>
+                    </div>
+                    <div class="rect">
+                        <h1>9152</h1>
+                        <p>Total Project</p>
+                    </div>
                 </div>
             </div>
-            <div class="text-center">
+            <div class="purchase text-center">
                 <h1>Perchase Whatever You Want</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde doloremque ab cumque iusto possimus
                     consequatur neque qui explicabo blanditiis facere!</p>
@@ -141,38 +148,38 @@
                                 <div class="title">
                                     <h5 class="card-title">PDF</h5>
                                 </div>
-                            </div>
-                            <p class="card-text">
-                                Lorem ipsum dolor sit amet consectetur.</p>
-                            <div class="pricing">
-                                <h1>$77.99</h1>
-                                <a href="#" class="btn btn-dark py-2">Perchase Now</a>
+                                <p class="card-text">
+                                    Lorem ipsum dolor sit amet consectetur.</p>
+                                <div class="pricing">
+                                    <h1>$99.99</h1>
+                                    <a href="#" class="btn btn-dark py-2 px-5 py-2 mb-5">Perchase Now</a>
+                                </div>
                             </div>
                         </div>
                         <div class="card">
                             <div class="card-body">
                                 <div class="title">
-                                    <h5 class="card-title">PDF</h5>
+                                    <h5 class="card-title">E-book</h5>
                                 </div>
-                            </div>
-                            <p class="card-text">
-                                Lorem ipsum dolor sit amet consectetur.</p>
-                            <div class="pricing">
-                                <h1>$77.99</h1>
-                                <a href="#" class="btn btn-dark py-2">Perchase Now</a>
+                                <p class="card-text">
+                                    Lorem ipsum dolor sit amet consectetur.</p>
+                                <div class="pricing">
+                                    <h1>$58.99</h1>
+                                    <a href="#" class="btn btn-dark py-2 px-5 py-2 mb-5">Perchase Now</a>
+                                </div>
                             </div>
                         </div>
                         <div class="card">
                             <div class="card-body">
                                 <div class="title">
-                                    <h5 class="card-title">PDF</h5>
+                                    <h5 class="card-title">Print-copy</h5>
                                 </div>
-                            </div>
-                            <p class="card-text">
-                                Lorem ipsum dolor sit amet consectetur.</p>
-                            <div class="pricing">
-                                <h1>$77.99</h1>
-                                <a href="#" class="btn btn-dark py-2">Perchase Now</a>
+                                <p class="card-text">
+                                    Lorem ipsum dolor sit amet consectetur.</p>
+                                <div class="pricing">
+                                    <h1>$77.99</h1>
+                                    <a href="#" class="btn btn-dark py-2 px-5 py-2 mb-5">Perchase Now</a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -186,7 +193,7 @@
                         accusantium architecto nisi quis possimus asperiores soluta placeat odit.</p>
                 </div>
             </div>
-            <div class="row">
+            <div class="platform row">
                 <div class="col-md-6 col-sm-12 text-right">
                     <div class="desktop shadow-lg">
                         <div class="d-flex flex-row justify-content-center">
@@ -216,96 +223,99 @@
                 <h1>What our Reader's Say about us</h1>
                 <p>Lorem ipsum dolor sit, amet consectetur</p>
             </div>
-            <div class="row">
+            <div class="team row">
                 <div class="col-md-4 col-12 text-center">
-                    <div class="card mr-2 d-inline-block show-lg">
+                    <div class="card mr-2 d-inline-block p-4 shadow-lg">
                         <div class="card-img-top">
-                            <img class="img-fluid" src="/assets/UI-face-3.jpg">
+                            <img class="img-fluid p-4 border-radius" src="/assets/UI-face-3.jpg">
                         </div>
-                    </div>
-                    <div class="card-body">
-                        <h3 class="card-title">Blablock Jolene</h3>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo qui
-                            omnis error, minus, ipsum quam quo nostrum quis doloremque dolore quasi vitae veniam
-                            repudiandae quibusdam tempore asperiores aperiam cumque suscipit!</p>
-                        <a href="#" class="text-secondary text-decoration-none">Go somewhere</a>
-                        <p class="text-secondary">CEO at google</p>
+                        <div class="card-body">
+                            <h3 class="card-title">Blablock Jolene</h3>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo qui
+                                omnis error, minus, ipsum quam quo nostrum quis doloremque dolore quasi vitae veniam
+                                repudiandae quibusdam tempore asperiores aperiam cumque suscipit!</p>
+                            <a href="#" class="text-secondary text-decoration-none">Go somewhere</a>
+                            <p class="text-secondary">CEO at google</p>
+                        </div>
                     </div>
                 </div>
                 <div class="col-md-4 col-12 text-center">
                     <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <div class="card mr-2 d-inline-block show-lg">
+                                <div class="card mr-2 d-inline-block p-4 shadow-lg">
                                     <div class="card-img-top">
-                                        <img class="img-fluid" src="/assets/UI-face-1.jpg">
+                                        <img class="img-fluid p-4 w-50 border-radius" src="/assets/UI-face-1.jpg">
                                     </div>
-                                </div>
-                                <div class="card-body">
-                                    <h3 class="card-title">Allen Agnes</h3>
-                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                        Explicabo
-                                        qui
-                                        omnis error, minus, ipsum quam quo nostrum quis doloremque dolore quasi
-                                        vitae
-                                        veniam
-                                        repudiandae quibusdam tempore asperiores aperiam cumque suscipit!</p>
-                                    <a href="#" class="text-secondary text-decoration-none">Go somewhere</a>
-                                    <p class="text-secondary">CEO at google</p>
+                                    <div class="card-body">
+                                        <h3 class="card-title">Allen Agnes</h3>
+                                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            Explicabo
+                                            qui
+                                            omnis error, minus, ipsum quam quo nostrum quis doloremque dolore quasi
+                                            vitae
+                                            veniam
+                                            repudiandae quibusdam tempore asperiores aperiam cumque suscipit!</p>
+                                        <a href="#" class="text-secondary text-decoration-none">Go somewhere</a>
+                                        <p class="text-secondary">CEO at google</p>
+                                    </div>
                                 </div>
                             </div>
                             <div class="carousel-item">
-                                <div class="card mr-2 d-inline-block show-lg">
+                                <div class="card mr-2 d-inline-block p-4 shadow-lg">
                                     <div class="card-img-top">
-                                        <img class="img-fluid" src="/assets/UI-face-2.jpg">
+                                        <img class="img-fluid p-4 w-50 border-radius" src="/assets/UI-face-2.jpg">
                                     </div>
-                                </div>
-                                <div class="card-body">
-                                    <h3 class="card-title">Amiel Barbara</h3>
-                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing
-                                        elit.
-                                        Explicabo qui
-                                        omnis error, minus, ipsum quam quo nostrum quis doloremque dolore quasi
-                                        vitae
-                                        veniam
-                                        repudiandae quibusdam tempore asperiores aperiam cumque suscipit!</p>
-                                    <a href="#" class="text-secondary text-decoration-none">Go somewhere</a>
-                                    <p class="text-secondary">CEO at google</p>
+                                    <div class="card-body">
+                                        <h3 class="card-title">Amiel Barbara</h3>
+                                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing
+                                            elit.
+                                            Explicabo qui
+                                            omnis error, minus, ipsum quam quo nostrum quis doloremque dolore quasi
+                                            vitae
+                                            veniam
+                                            repudiandae quibusdam tempore asperiores aperiam cumque suscipit!</p>
+                                        <a href="#" class="text-secondary text-decoration-none">Go somewhere</a>
+                                        <p class="text-secondary">CEO at google</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4 col-12 text-center">
-                    <div class="card mr-2 d-inline-block show-lg">
+                    <div class="card mr-2 d-inline-block p-4 shadow-lg">
                         <div class="card-img-top">
-                            <img class="img-fluid" src="/assets/UI-face-4.jpg">
+                            <img class="img-fluid p-4 border-radius" src="/assets/UI-face-4.jpg">
                         </div>
-                    </div>
-                    <div class="card-body">
-                        <h3 class="card-title">Oliva Louis</h3>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo qui
-                            omnis error, minus, ipsum quam quo nostrum quis doloremque dolore quasi vitae veniam
-                            repudiandae quibusdam tempore asperiores aperiam cumque suscipit!</p>
-                        <a href="#" class="text-secondary text-decoration-none">Go somewhere</a>
-                        <p class="text-secondary">CEO at google</p>
+                        <div class="card-body">
+                            <h3 class="card-title">Oliva Louis</h3>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo qui
+                                omnis error, minus, ipsum quam quo nostrum quis doloremque dolore quasi vitae veniam
+                                repudiandae quibusdam tempore asperiores aperiam cumque suscipit!</p>
+                            <a href="#" class="text-secondary text-decoration-none">Go somewhere</a>
+                            <p class="text-secondary">CEO at google</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
     </main>
     <footer>
-        <div class="container-fluid p-0" style="background-color: rgb(187, 182, 187);">
+        <div class="container-fluid p-0">
             <div class="row">
                 <div class="col-md-5 col-sm-5">
-                    <h4>About us</h4>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum doloribus animi iusto est sequi?
+                    <h4 class="text-light">About us</h4>
+                    <p class="text-muted">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum doloribus
+                        animi iusto est sequi?
                         Recusandae minus</p>
-                    <p>Coppyright Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                    <p class="text-muted">Coppyright 2021 All rights reserved | This template is made with by
+                        <span>Daily Tuition</span></span>
+                    </p>
                 </div>
                 <div class="col-md-5 col-sm-12">
-                    <h4>Newsletter</h4>
-                    <p>Stay Uploated</p>
+                    <h4 class="text-light">Newsletter</h4>
+                    <p class="text-muted">Stay Uploated</p>
                     <form class="form-inline">
                         <div class="pl-0">
                             <div class="input-group">
@@ -321,7 +331,7 @@
                 </div>
                 <div class="col-md-2 col-sm-12">
                     <h4 class="text-light">Follow us</h4>
-                    <p>Let us be social</p>
+                    <p class="text-muted">Let us be social</p>
                     <div class="text-light">
                         <i class="fab fa-facebook-f"></i>
                         <i class="fab fa-instagram"></i>
